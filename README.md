@@ -14,7 +14,9 @@ Results are shown separately for each ESM (CESM and FOCI) and lead time (0 / 1 /
 
 | Model       | Author | Description | mse (test)   | correl (test) |
 | :---        | :---:  |    :---    |    :---:      |    :---:      |
+| CNN/fc   | Marco  | all inputs | 0.995   | 0.317   |
 | lin. reg.   | Marco  | all inputs, normalized | 1.003   | 0.304   |
+| CNN/fc   | Marco  | univariate | 1.064   | 0.192   |
 
 ### lead 3
 
